@@ -1,3 +1,5 @@
 ee155_utils.cxx
 ee155_utils.hxx
 server_breaker.cxx
+styled
+*.o
