@@ -14,6 +14,8 @@ all: server_breaker.o ee155_utils.o server_breaker_thread.o
 
 test: all
 	./run
+test_styled: styled
+	./styled > styled.md
 %.o: %.cxx
 	$(CXX) $(CXXFLAGS) -c $<
 
