@@ -1,4 +1,6 @@
-# Styled Lab 2: Creates tables of putput data.
+# Styled Lab 2: Creates tables of putput data
+## Autogenerates data tables matching lab expected data, for easy viewing.
+
 To remove standard deviation, simply remove it from line 47 of "server_breaker_styled.cxx"
 
 This is an example output, on a lab machine. 
