@@ -51,7 +51,7 @@ void analyze_times_styled (vector<double> &times) {
 ////////////////////////////////////////////////////////////////////////////////
 int main(int argc, char** argv) 
 {
-    cout << "There are "<<thread::hardware_concurrency() <<" threads";
+    cout << "There are "<<thread::hardware_concurrency() <<" threads\n" << endl ;
     
     // Run through all of the parameter combinations that the homework asks for.
    cout << " 0 stores + 2 loads | 1 thread | 2 threads | 4 threads | 8 threads | 16 threads " << endl;
@@ -63,7 +63,7 @@ int main(int argc, char** argv)
         }
         cout << endl;
     }
-    cout << "\n\n" << endl;
+    cout << "\n <br /><br />\n" << endl;
     cout << " 4 stores + 1 loads | 1 thread | 2 threads | 4 threads | 8 threads | 16 threads " << endl;
     cout << " ------------------ | -------- | --------- | --------  | --------- | ---------- " << endl;
 
